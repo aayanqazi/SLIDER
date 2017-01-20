@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        ul#main > li
+        {
+            display: inline-block;
+            position: relative;
+            border:10px solid red;
+        }
+        ul#sub >li
+        {
+            display: none;
+        }
+        ul#main :hover > #sub>li
+        {
+            display:block;
+            position: absolute;
+            left: 0;
+            width:130px;
+            top:40px;
+            border:10px solid black;
+        }
+        </style>
+</head>
+<body>
+    <nav>
+        <ul id="main">
+            <li id="new">Arsalan Sabir
+                <ul id="sub">
+
+                    <li>
+                        Sabir HUssain
+                        </li>
+
+                        </ul>
+                        </li>
+                        
+                        <li> Ahmed Sabir </li>
+                          <li> Ahmed Sabir </li>
+                            <li> Ahmed Sabir </li>
+                              <li> Ahmed Sabir </li>
+            </ul>
+
+    </nav>
+</body>
+</html>
